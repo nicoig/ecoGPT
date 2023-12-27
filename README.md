@@ -1,33 +1,32 @@
-# EcoGPT
+# ProductGPT
 
-## Descripción
-EcoGPT es una aplicación revolucionaria diseñada para promover el reciclaje y la sostenibilidad ambiental. Utiliza tecnología de IA avanzada para identificar productos y materiales a partir de fotografías, brindando consejos útiles sobre cómo reciclarlos de manera adecuada y sostenible.
+ProductGPT es una aplicación que te ayuda a generar descripciones promocionales para tus productos. Con un enfoque en la descripción de productos mediante imágenes y texto, la aplicación utiliza IA para proporcionar descripciones detalladas y nombres atractivos para los productos cargados.
 
-![EcoGPT App Screenshot](img/app.jpg)
+## Funcionamiento
 
-## Funcionalidad
-La aplicación permite a los usuarios cargar imágenes de productos y, mediante el uso de modelos de IA, identifica el tipo de material y ofrece recomendaciones específicas de reciclaje. Estas recomendaciones están diseñadas para ayudar a los usuarios a reciclar de manera más eficiente y contribuir a la reducción de residuos.
+La aplicación consta de los siguientes elementos:
+
+- **Interfaz de Usuario**: 
+    - Permite al usuario cargar una imagen del producto.
+    - Proporciona un espacio para introducir características adicionales del producto, como precio, marca, etc.
+    - Botón "Enviar Consulta" para iniciar el procesamiento.
+
+- **Procesamiento de IA**:
+    - Analiza la imagen y el texto proporcionados por el usuario utilizando modelos de IA.
+    - Genera descripciones detalladas y nombres atractivos para el producto basados en los datos de entrada.
+
+- **Descarga de Resultados**:
+    - Presenta una descripción promocional para el producto generado por la IA.
+    - Ofrece la opción de descargar la descripción con un nombre de archivo específico basado en el nombre sugerido para el producto.
 
 ## Uso
-Para utilizar EcoGPT, sigue estos pasos:
-1. Carga una imagen del producto que deseas reciclar.
-2. Haz clic en "Analizar Producto".
-3. Recibe la identificación del producto y material.
-4. Sigue los consejos de reciclaje proporcionados.
 
-## Instalación
-Clona este repositorio en tu máquina local utilizando `git clone https://github.com/nicoig/ecoGPT.git`.
+Para utilizar esta aplicación:
 
-Instala todas las dependencias necesarias con `pip install -r requirements.txt`.
-
-Asegúrate de configurar tus claves API en un archivo `.env` basándote en el ejemplo proporcionado por `.env.example`.
-
-## Tecnologías Utilizadas
-- Python
-- Streamlit
-- OpenAI API
-- LangChain
-
+1. Carga una imagen de tu producto.
+2. Añade características adicionales como el precio, marca, etc.
+3. Haz clic en "Enviar Consulta" para obtener una descripción promocional y un nombre para tu producto.
+4. Descarga la descripción proporcionada con el botón de descarga correspondiente.
 
 ## Autor
 @NicoIG
